@@ -1,0 +1,18 @@
+h2{
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+/* .facebook:visited{
+    color: rgb(217, 255, 3);
+} */
+a:hover{
+    color: rgb(0, 255, 0);
+}
+a:active{
+    color: blueviolet;
+}

@@ -1,0 +1,81 @@
+/* UNTUK MENGHAPUS PADDING DEFAULT HTML */
+*{
+    margin: 0px;
+}
+body{
+    /* background-image: url(../assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgb(235, 232, 229);
+}
+.header{
+    width: 100%;
+    height: 50px;
+    /* background-image: url(../assets/tumbnail.png);
+    background-size: cover; */
+    background-color: rgb(19, 19, 124);
+    position: fixed;
+   
+}
+.box1{
+    width: 30%;
+    height: 100%;
+    border: 1px solid white;
+    float: left;
+    background-color: aqua;
+}
+
+.box2{
+    width: 70%;
+    height: 100%;
+    border: 1px solid wheat;
+    float: right;
+}
+
+.box2 li{
+    display: inline;
+    color: wheat;
+}
+
+.konten3{
+    display: flex;
+
+}
+.p1, .p2, .p3{
+   margin: 10px;
+   margin-top: 100px;
+}
+.p1{
+    /* SETIAP TEKS ADALAH KOTAK */
+    background-color: aquamarine;
+    width: 200px;
+    /* ingin memberikan jarak teks dengan kotak dalam bagian kiri, kanan, atas , bawah */
+    padding: 20px;
+
+}
+
+.p2{
+    background-color: aquamarine;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+}
+
+.p3{
+    background-color:aquamarine ;
+    width: 200px;
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* MEMBERIKAN JARAK ANTAR KOTAK LUAR PADA TEKS */
+ 
+}
+.p4{
+    font-weight: bold;
+    text-align:center;
+    width: 50%;
+}
+

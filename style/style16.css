@@ -1,0 +1,53 @@
+.container{
+    width: 50%;
+    height: 500px;
+    background-color: #9D6716;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    align-items: center;
+    align-content:center;
+    
+
+}
+
+
+.container div{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    /* background-color: #9D6716; */
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #000000;
+    
+}
+
+.container div:hover{
+    background-color: #000000;
+}
+
+div img{
+    width: 100px;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+}
+
+div label{
+    color: white;
+    font-size: 11px;
+}
+
+.box1, .box2, .box3{
+    width: 100px;
+    height: 100px;
+    background-color: #9D6716;
+}
+
+.box8{
+    flex-shrink: 2;
+    background-color: rgb(255, 145, 0);
+}

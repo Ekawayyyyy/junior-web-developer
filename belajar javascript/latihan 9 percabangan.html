@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>percabangan</h1>
+    <script>
+        var total = prompt("total belanja ?", 0);
+
+        if (total >= 100000) {
+            document.write("<p>Selamat anda dapat hadiah</p> <br>");
+        }else{
+            document.write("<p>sedikit belanja mu</p> <br>");
+        }
+
+        document.write("<p>terimakasih</p>");
+
+        var angka = 78;
+
+        if(angka > 100){
+            document.write("<p>Grade A</p>");
+        }else if(angka > 80){
+            document.write("<p>Grade B</p>");   
+        }else if(angka > 60){
+            document.write("<p>Grade C</p>");
+        }else if(angka > 40){
+            document.write("<p>Grade D</p>");
+        }else{
+            document.write("<p>Grade E</p>");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #hasil-output{
+            color: rgb(255, 255, 255);
+            background-color: teal;
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>belajar tampilkan menggunakan id</h1>
+    <div id="hasil-output"></div>
+
+    <script>
+        var hasil = document.getElementById("hasil-output");
+        var condition = true;
+        
+        if (condition) {
+            hasil.innerHTML = "<p>ini adalah paragraf javascript saat ini</p>";
+        }else{
+            hasil.innerHTML = "<p>ini yang barunya</p>";
+        }
+        condition = !condition;
+
+        setInterval(toggleText, 3000);
+        toggleText();
+       
+    </script>
+</body>
+</html>

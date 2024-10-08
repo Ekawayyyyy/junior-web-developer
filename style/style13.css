@@ -1,0 +1,17 @@
+table{
+    margin: auto;
+    margin-top: 30px;
+    border-spacing: 0px;
+}
+
+th{
+    background-color: burlywood;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(233, 230, 227);
+}
